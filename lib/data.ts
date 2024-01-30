@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import eventlyImg from "@/public/evently.png";
+import promptopiaImg from "@/public/promptopia.png";
+import hooBankImg from "@/public/hoo_bank.png";
 
 export const links = [
   {
@@ -35,52 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Worked hard on DSA and Competitive programming",
+    location: "Codechef and Leetcode",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "At the end of six months, i became a 3* in Codechef.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 Jan - June",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bagged my first offer",
+    location: "Tech Wishes",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I switched sides after my mid second year and got into development, studied hard and bagged my first offer letter on software developement",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 July - Dec",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Developer",
+    location: "Brand Impetus",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a software developer in Brand Impetus and i have been workingg here for more than an year now. My stack includes React, Next.js, TypeScript, Tailwind, Nodejs and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 Jan - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Evently",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A dynamic CRUD event organization web app that lets users buy tickets and view orders details of an event they created.",
+    tags: ["React", "Next.js14", "MongoDB", "Tailwind", "Shadcn", "Zod","Clerk", "Stripe"],
+    imageUrl: eventlyImg,
   },
   {
-    title: "rmtDev",
+    title: "Promptopia",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A Next.js 13 web app that helps users query ChatGPT and Bard AI using thoughtfully curated prompts, enhancing your interactions with LLMs.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
+    imageUrl: promptopiaImg,
   },
   {
-    title: "Word Analytics",
+    title: "Hoo Bank",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "GenZ banking app built with React.js, Elegant UI is done with Tailwind CSS and custom gradients are the source of exceptional UX.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: hooBankImg,
   },
 ] as const;
 
@@ -94,14 +94,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
