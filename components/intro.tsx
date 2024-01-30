@@ -65,8 +65,8 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Gourab.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">1.5 years</span> of experience. I enjoy
-        building <span className="italic">frontend & backend</span>. I enjoy doing{" "}
-        <span className="underline">React & Next.js</span>, the most.
+        building <span className="italic">frontend & backend</span>. I enjoy
+        doing <span className="underline">React & Next.js</span>, the most.
       </motion.h1>
 
       <motion.div
@@ -98,21 +98,23 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/gourab-bandyopadhyay-485898219/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
+        <div className="flex items-center justify-center gap-2">
+          <a
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.linkedin.com/in/gourab-bandyopadhyay-485898219/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Gourab1312"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://github.com/Gourab1312"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );
