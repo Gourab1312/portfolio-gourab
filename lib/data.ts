@@ -76,6 +76,7 @@ export const projectsData = [
       "Dwolla",
     ],
     imageUrl: vaultImg,
+    liveLink: 'https://vault-ashy.vercel.app/'
   },
   {
     title: "Evently",
@@ -92,6 +93,7 @@ export const projectsData = [
       "Stripe",
     ],
     imageUrl: eventlyImg,
+    liveLink: 'https://evently-two-kohl.vercel.app/'
   },
   {
     title: "Promptopia",
@@ -99,6 +101,7 @@ export const projectsData = [
       "A Next.js 13 web app that helps users query ChatGPT and Bard AI using thoughtfully curated prompts, enhancing your interactions with LLMs.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: promptopiaImg,
+    liveLink : 'https://promptopia-kappa-ten.vercel.app/'
   },
   {
     title: "Hoo Bank",
@@ -106,6 +109,7 @@ export const projectsData = [
       "GenZ banking app built with React.js, Elegant UI is done with Tailwind CSS and custom gradients are the source of exceptional UX.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: hooBankImg,
+    liveLink : 'https://effortless-hamster-e55017.netlify.app/'
   },
 ] as const;
 
