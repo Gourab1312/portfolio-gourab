@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import eventlyImg from "@/public/evently.png";
 import promptopiaImg from "@/public/promptopia.png";
 import hooBankImg from "@/public/hoo_bank.png";
+import vaultImg from "@/public/vaultImg.png";
 
 export const links = [
   {
@@ -37,8 +38,7 @@ export const experiencesData = [
   {
     title: "Worked hard on DSA and Competitive programming",
     location: "Codechef and Leetcode",
-    description:
-      "At the end of six months, i became a 3* in Codechef.",
+    description: "At the end of six months, i became a 3* in Codechef.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 Jan - June",
   },
@@ -62,10 +62,35 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Vault",
+    description:
+      "Vault is a next-gen banking app that links bank multiple accounts, displays real-time transactions, and supports user-to-user transfers",
+    tags: [
+      "Typescript",
+      "Next.js14",
+      "Tailwind",
+      "Shadcn",
+      "Zod",
+      "Appwrite",
+      "Plaid",
+      "Dwolla",
+    ],
+    imageUrl: vaultImg,
+  },
+  {
     title: "Evently",
     description:
       "A dynamic CRUD event organization web app that lets users buy tickets and view orders details of an event they created.",
-    tags: ["React", "Next.js14", "MongoDB", "Tailwind", "Shadcn", "Zod","Clerk", "Stripe"],
+    tags: [
+      "React",
+      "Next.js14",
+      "MongoDB",
+      "Tailwind",
+      "Shadcn",
+      "Zod",
+      "Clerk",
+      "Stripe",
+    ],
     imageUrl: eventlyImg,
   },
   {
@@ -85,17 +110,21 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "TypeScript",
+  "NextJs",
+  "JavaScript",
+  "ReactJs",
+  "Tailwind",
+  "Zod",
+  "Redux",
+  "Zustand",
+  "Formik",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
+  "Git & Github",
   "MongoDB",
-  "Redux",
   "Express",
   "Framer Motion",
+  "GSAP"
 ] as const;

@@ -19,27 +19,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently in my fourth year, pursuing Btech in{" "}
-        <span className="font-medium">Computer Science</span>, I decided to pursue my
-        passion for programming from second year only. I did a lot of <span className="font-medium">Competitive programming</span> and <span className="font-medium">DSA</span> in <span className="font-medium">Codechef and Leetcode respectively, solving over 250 problems in all.</span> I joined my first company, Brand Impetus as a{" "}
-        <span className="font-medium">software developer</span>.{" "}
-        <span className="italic">My favorite part of developing</span> is creating product that actual masses are gonna use. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I'm a B.Tech graduate in{" "}
+        <span className="font-medium">Computer Science</span>, passionate about
+        programming since my second year. I've solved over 250 problems in{" "}
+        <span className="font-medium">Competitive Programming</span> and{" "}
+        <span className="font-medium">DSA</span> on Codechef and Leetcode. I
+        worked as a <span className="font-medium">software developer</span> at
+        Brand Impetus, where{" "}
+        <span className="italic">I love creating products for real users</span>{" "}
+        and <span className="underline">enjoy problem-solving. </span> My core
+        stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Typescript,Next.js, Javascript, React, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript, Javascript and TailwindCSS along with SCSS. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        , and I'm skilled in Redux, Zustand, Zod, Formik, Version control, Framer Motion and GSAP. I'm
+        eager to learn new technologies and currently seek a{" "}
+        <span className="font-medium">
+          full-time software developer position
+        </span>
+        .
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching movies, and spending time with friends and family. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">Frontend Microservices</span>
+        <span className="italic">When I'm not coding</span>, I enjoy movies,
+        spending time with friends and family, and{" "}
+        <span className="font-medium">learning new things</span>. I'm currently
+        exploring <span className="font-medium">NextJs 15 and React 18</span>.
       </p>
     </motion.section>
   );
